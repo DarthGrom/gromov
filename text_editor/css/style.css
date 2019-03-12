@@ -1,0 +1,106 @@
+* {
+    font-family: "Georgia", serif;
+    box-sizing: border-box;
+}
+html{
+    height: 100%;
+    width: 100%;
+}
+body {
+    background-color: #464f54;
+    height: 100%;
+    margin: -8% 0;
+}
+header {
+    background-color: #181818;
+    margin-left: 30%;
+    color: white;
+    position: relative;
+    top: 15%;
+}
+.content {
+    padding-left: 5%;
+}
+section {
+    background-color: #ffffff;
+    margin-left: 5%;
+    margin-right: 5%;
+    padding: 12% 12% 0 12%;
+    text-align: justify;
+    height: 100%;
+    box-shadow: 0 0 15px;
+}
+#title {
+    padding-top: 5%;
+    margin: 0;
+    font-family: "";
+}
+div[id="control-bar"] {
+    background-color: #fbc02d;
+    margin-left: 40%;
+    position: relative;
+    top: 15%;
+}
+input {
+    background-color: #fbc02d;
+    border: none;
+    width: 30px;
+    height: 30px;
+    margin:5px;
+    padding: 0;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+#author {
+    text-transform: uppercase;
+    margin-bottom: 0;
+    font-family: "ProximaNova", serif;
+}
+#black-title {
+    font-family: 'Playfair Display', serif;
+    letter-spacing: 2px;
+    margin: 0;
+    padding-bottom: 5%;
+}
+.info {
+    margin:0 0 5% 0;
+    font-family: "Georgia italic" , serif;
+}
+.text {
+    font-family: "Georgia", serif;
+}
+section > h1 {
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    font-size: 52px;
+    margin-top: 1%;
+    margin-bottom: 0;
+    font-family: "FuturaPT", serif;
+}
+.line3 {
+    height: 500px;
+    border-left:2px solid #9EC1D4;
+    padding-left:10px;
+    position: relative;
+    margin-left: 12%;
+    margin-top: -33%;
+    top:66.3%;
+}
+.line2 {
+    height: 100px;
+    border-bottom: 2px solid #9EC1D4;
+    padding-left:10px;
+    position: relative;
+    margin-left: 12%;
+    margin-top: -40%;
+    top:66%;
+}
+.line1 {
+    height: 100px;
+    border-bottom: 2px solid #9EC1D4;
+    padding-left:10px;
+    position: relative;
+    margin-left: 12%;
+    margin-top: -40%;
+    top:66%;
+}
