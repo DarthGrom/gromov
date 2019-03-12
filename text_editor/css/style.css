@@ -77,14 +77,14 @@ section > h1 {
     margin-bottom: 0;
     font-family: "FuturaPT", serif;
 }
-.line {
+.line3 {
     height: 500px;
     border-left:2px solid #9EC1D4;
     padding-left:10px;
     position: relative;
     margin-left: 12%;
-    margin-top: -50%;
-    top:66.5%;
+    margin-top: -33%;
+    top:66.3%;
 }
 .line2 {
     height: 100px;
@@ -92,5 +92,15 @@ section > h1 {
     padding-left:10px;
     position: relative;
     margin-left: 12%;
-    margin-top: -50%;
-    top:66.5%;
+    margin-top: -40%;
+    top:66%;
+}
+.line1 {
+    height: 100px;
+    border-bottom: 2px solid #9EC1D4;
+    padding-left:10px;
+    position: relative;
+    margin-left: 12%;
+    margin-top: -40%;
+    top:66%;
+}
