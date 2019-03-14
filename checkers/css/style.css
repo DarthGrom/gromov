@@ -1,0 +1,77 @@
+body {
+    position: relative;
+}
+table {
+    border:2px solid black;
+    background: orange;
+    margin:0 auto;
+    border-collapse: collapse;
+}
+tr {
+    height: 80px;
+    border:3px solid black;
+}
+td {
+    width: 80px;
+    border-right: 3px solid black;
+    position: relative;
+}
+tr:nth-child(odd)>td:nth-child(2n) {
+    background-color: blue;
+}
+tr:nth-child(even)>td:nth-child(odd) {
+    background-color: blue;
+}
+tr:nth-child(odd)>td:nth-child(2n)>div{
+    position: absolute;
+    border-radius: 35px;
+    border: 35px solid black;
+    top: 0;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    margin: auto;
+    height: 0.1px;
+    width: 0.1px; 
+}
+tr:nth-child(even) > td:nth-child(odd) > div {
+    position: absolute;
+    border-radius: 34.9px;
+    border: 35px solid black;
+    top: 0;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    margin: auto;
+    height: 0.1px;
+    width: 0.1px;
+}
+tr:nth-child(4)>td>div,
+tr:nth-child(5)>td>div {
+    display: none;
+}
+
+/*div.black {
+    position: absolute;
+    border-radius: 35px;
+    border: 35px solid black;
+    top: 0;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    margin: auto;
+    height: 0.1px;
+    width: 0.1px;
+}
+div.white {
+    position: absolute;
+    border-radius: 35px;
+    border: 35px solid white;
+    top: 0;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    margin: auto;
+    height: 0.1px;
+    width: 0.1px;
+}
