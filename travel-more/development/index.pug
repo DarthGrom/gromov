@@ -1,0 +1,21 @@
+include bem/header/header.pug
+include bem/section/AboutSpain.pug
+include bem/footer/footer.pug
+include bem/section/WhyChooseUs.pug
+include bem/section/steps.pug
+include bem/section/TouristSay.pug
+
+<!DOCTYPE html>
+html(lang="en")
+head
+    meta(charset="UTF-8")
+    title Travel-more
+    link(rel="stylesheet", href="_normalize/_normalize.css")
+    link(rel="stylesheet", href="style.css")
+body
+    +header()
+    +WhyChooseUs()
+    +steps()
+    +AboutSpain()
+    +TouristSay()
+    +footer()

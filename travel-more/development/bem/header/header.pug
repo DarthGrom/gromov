@@ -1,0 +1,19 @@
+include ../menu/menu.pug
+
+mixin header()
+    header.header
+        .header_layout
+            h1.h1 Bhromaon
+            p.header_p Safe Travel Anywhere
+            .header_search
+                input.text(
+                    type = 'text'
+                    placeholder ='Search Your Travel Destination'
+                    pattern="^[A-Za-zА-Яа-яЁё\s]+${3,255}"
+                    required
+                )
+                .button
+                    .button_text Search
+                    .button_icon
+        .menu_layout
+            +menu()

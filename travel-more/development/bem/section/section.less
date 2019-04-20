@@ -1,0 +1,127 @@
+@import 'AboutSpain.less';
+
+.section {
+    background-image: url(img/background3.png);
+    height: 700px;
+    &_AboutSpain{
+        background: url(img/background3.png) no-repeat ;
+    }
+}
+.second{
+    background: url(img/background4.png) no-repeat;
+}
+.WhyChooseUs{
+    background: url(img/background2.png) no-repeat;
+    color: #fefefe;
+    &_layout{
+        display: flex;
+        padding: 100px 320px;
+    }
+    &_content{
+        padding:80px 100px 40px 0;
+    }
+    &_picture{
+        height: 450px;
+        width: 480px;
+        display: flex;
+        flex-direction: column;
+        position:relative;
+        &__first{
+            background: url(img/picture/image1.png) no-repeat;
+            width: 350px;
+            height: 225px;
+            
+        }
+        &__second{
+            background: url(img/picture/image2.png) no-repeat;
+            width: 350px;
+            height: 225px;
+            position:absolute;
+            left: 100px;
+            top: 225px;
+        }
+    }
+}
+.steps{
+    background: #333;
+    box-sizing: border-box;
+    height: 350px;
+    color: #fefefe;
+    &_layout{
+        padding: 100px 380px;
+        display: flex;
+        justify-content: space-between;
+    }
+    &_text{
+        font: 36px 'Josefin+Sans', sans-serif;
+    }
+    &_search{
+        &__image{
+        height: 70px;
+        width: 70px;
+        background: url(img/icon/icon1.png) no-repeat;
+        }
+    }
+    &_select{
+        &__image{
+        height: 70px;
+        width: 70px;
+        background: url(img/icon/icon2.png) no-repeat;
+            &:before,
+            &:after{
+                content: '';
+                position: absolute;
+                display: flex;
+                flex-direction: row;
+                justify-content: space-between;
+                height: 68px;
+                width: 350px;
+                border-top: 2px dotted white;
+                border-radius: 100px 100px ;
+            }
+            &:before{
+                right: 135px;
+            }
+            &:after{
+                left: 435px;
+            }
+        }
+    }
+    &_enjoy{
+        &__image{
+        height: 70px;
+        width: 70px;
+        background: url(img/icon/icon3.png) no-repeat;
+        }
+    }
+}
+.TouristSay{
+    background: url(img/background5.png) no-repeat;
+    position: relative;
+    color: white;
+    &_h2{
+        text-align: center;
+        margin: 0;
+        position:absolute;
+        right: 45%;
+        top: 120px;
+        font: 36px 'Josefin+Sans', sans-serif; ;
+    }
+    &_layout{
+        padding:250px 330px 190px;
+    }
+    &_content{
+        display: flex;
+        box-sizing: border-box;
+        height: 290px;
+        width: 1100px;
+        &__picture{
+            background: url(img/picture/image3.png) no-repeat;
+            width: 150%;
+        }
+        &__information{
+            background-color: rgba(35,35,35, 0.9);
+            padding: 20px 50px;
+        }
+    }
+}
