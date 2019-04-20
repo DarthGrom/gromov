@@ -1,8 +1,7 @@
 .header {
-    background-image: url(img/background1.png);
-    height: 800px;
+    background: url(img/background1.png) no-repeat;
+    background-size: 100%;
     color: #fff;
-    justify-content: center;
     text-transform: uppercase;
     &_layout{
         padding:270px 560px 210px;
@@ -11,6 +10,9 @@
     &_search{
         display: flex;
         justify-content: center;
+        &:hover{
+            transform: scale(1.2);
+        }
     }
     &_p{
         font: 22px 'Aleo', sans-serif;
@@ -36,6 +38,9 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    &:hover{
+        opacity: 0.5;
+    }
     &_big{
         height: 60px;
         border: 1px solid transparent;
@@ -47,6 +52,9 @@
         text-transform: uppercase;
         letter-spacing: 0.075em;
         font-size: 16px;
+        &:hover{
+            opacity: 0.5;
+        }
     }
     &_icon{
         background: url(img/icon/icon_search.png) no-repeat;
@@ -58,6 +66,5 @@
     }
 }
 .menu_layout{
-    display: flex;
-    justify-content: flex-end;
+    width: 100vh;
 }
