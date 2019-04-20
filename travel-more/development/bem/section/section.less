@@ -1,17 +1,19 @@
 @import 'AboutSpain.less';
 
 .section {
-    background-image: url(img/background3.png);
     height: 700px;
     &_AboutSpain{
-        background: url(img/background3.png) no-repeat ;
+        background: url(img/background3.png) no-repeat;
+        background-size: 100%;
     }
 }
 .second{
     background: url(img/background4.png) no-repeat;
+    background-size: 100%;
 }
 .WhyChooseUs{
     background: url(img/background2.png) no-repeat;
+    background-size: 100%;
     color: #fefefe;
     &_layout{
         display: flex;
@@ -47,6 +49,7 @@
     box-sizing: border-box;
     height: 350px;
     color: #fefefe;
+    position:relative;
     &_layout{
         padding: 100px 380px;
         display: flex;
@@ -56,6 +59,12 @@
         font: 36px 'Josefin+Sans', sans-serif;
     }
     &_search{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        &:hover{
+            transform: scale(1.2);
+        }
         &__image{
         height: 70px;
         width: 70px;
@@ -63,31 +72,25 @@
         }
     }
     &_select{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
         &__image{
         height: 70px;
         width: 70px;
         background: url(img/icon/icon2.png) no-repeat;
-            &:before,
-            &:after{
-                content: '';
-                position: absolute;
-                display: flex;
-                flex-direction: row;
-                justify-content: space-between;
-                height: 68px;
-                width: 350px;
-                border-top: 2px dotted white;
-                border-radius: 100px 100px ;
-            }
-            &:before{
-                right: 135px;
-            }
-            &:after{
-                left: 435px;
-            }
+        }
+        &:hover{
+            transform: scale(1.2);
         }
     }
     &_enjoy{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        &:hover{
+            transform: scale(1.2);
+        }
         &__image{
         height: 70px;
         width: 70px;
@@ -95,8 +98,30 @@
         }
     }
 }
+.content_lines{
+    display: flex;
+    &:before,
+    &:after{
+        content: '';
+        position: absolute;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        height: 68px;
+        width: 300px;
+        border-top: 2px dotted white;
+        border-radius: 80% 80% 0 0;
+        }
+        &:before{
+            right: 55%;
+        }
+         &:after{
+            left: 55%;
+        }
+}
 .TouristSay{
     background: url(img/background5.png) no-repeat;
+    background-size: 100%;
     position: relative;
     color: white;
     &_h2{

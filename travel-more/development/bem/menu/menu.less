@@ -1,15 +1,13 @@
 .menu{
     background-color: #5474fd;
-    color: #fff;
     position: fixed;
+    color: #fff;
+    width: 100%;
     display: flex;
     justify-content: space-around;
     height: 80px;
     align-items: center;
     margin: 0;
-    padding: 0;
-    width: 1770px;
-    margin-top: 90px;
     z-index: 2;
     &_logo{
         text-transform: uppercase;
@@ -23,6 +21,10 @@
         justify-content: space-between;
         &__anchor{
         padding-right: 60px;
+        font: 16px 'Josefin+Sans', sans-serif;
+        &:hover{
+            transform: scale(1.1);
+            }
         }
     }
 }
