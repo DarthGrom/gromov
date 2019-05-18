@@ -5,30 +5,37 @@ body{
 
 }
 .block{
+    position: relative;
+    height: 200px;
+    width: 200px;
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
-    align-items: center;
-
 }
 .button{
-    text-align: center;
-    border: 1px solid white;
-    border-radius: 10px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.4);
+    padding: 20px;
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid gray;
+    border-radius: 60px;
+    box-shadow: 5px 0 15px rgba(0, 0, 0, 0.5);
+    height: 60px;
+    width: 60px;
 }
-#blue{
-    background: blue;
+.button_off{
+    background: gray;
+    border: 1px solid rgb( 130, 130, 130);
+    border-radius: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    height: 20px;
+    width: 20px;
 }
-#green{
+.button_on{
     background: green;
-}
-#orange{
-    background: orange;
-}
-#red{
-    background: red;
-}
-#purple{
-    background: purple;
+    border: 1px solid rgb( 130, 130, 130);
+    border-radius: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    height: 20px;
+    width: 20px;
 }
